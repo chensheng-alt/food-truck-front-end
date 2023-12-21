@@ -27,10 +27,10 @@ proxy: {
   },
 ```
 # Page description
-* QueryFoodTrucks page
+* QueryFoodTrucks page  
   Querying food truck information by specified conditions.  
   ![Image](https://github.com/chensheng-alt/food-truck-front-end/blob/dev/src/assets/readme-imgs/query-food-trucks.png)
 
-* FoodTruckLocation page
+* FoodTruckLocation page  
   Display the locations of food trucks from the query results on the map.  
   ![Image](https://github.com/chensheng-alt/food-truck-front-end/blob/dev/src/assets/readme-imgs/food-truck-location.png)
