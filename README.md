@@ -4,6 +4,14 @@ The "food-truck-front-end" project is a frontend project designed to showcase in
 
 # Initialize the project
 * Install dependency packages.  
-''' 
-npm install
-'''
+  ''' 
+  npm install
+  '''
+* Run the project.
+  '''
+  npm run dev
+  '''
+* Build the project.
+  '''
+  npm run build
+  '''
