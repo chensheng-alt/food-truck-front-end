@@ -15,3 +15,18 @@ The "food-truck-front-end" project is a frontend project designed to showcase in
   ```
   npm run build
   ```
+# Configure the backend server
+Run the backend project with the server address and port number configured in the 'proxy.target' property in the '。umirc.dev' file.
+```
+proxy: {
+    '/food-truck-frontend-api': {
+      target: 'http://[food-truck-back-end hostname]:[port]',
+      changeOrigin: true,
+      pathRewrite: { '^/food-truck-frontend-api': '' },
+    },
+  },
+```
+# Page description
+* QueryFoodTrucks page
+  ![Image](https://github.com/chensheng-alt/food-truck-front-end/blob/dev/src/assets/readme-imgs/query-food-trucks.png)
+* FoodTruckLocation page
