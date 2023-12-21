@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "author": "sheng.chen <chensheng@smacloud.com>",
+  "scripts": {
+    "dev": "cross-env UMI_ENV=dev max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.0.89",
+    "antd": "^5.4.0",
+    "cross-env": "^7.0.3",
+    "react-bmap": "^1.0.131",
+    "react-bmapgl": "^0.2.26"
+  },
+  "devDependencies": {
+    "@types/bmapgl": "^0.0.7",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
