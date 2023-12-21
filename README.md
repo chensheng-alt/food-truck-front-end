@@ -34,3 +34,6 @@ proxy: {
 * FoodTruckLocation page  
   Display the locations of food trucks from the query results on the map.  
   ![Image](https://github.com/chensheng-alt/food-truck-front-end/blob/dev/src/assets/readme-imgs/food-truck-location.png)
+
+# Expected feature additions
+* After selecting a specific food truck, display the navigation route from the user's current location to the food truck.
